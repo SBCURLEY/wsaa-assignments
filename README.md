@@ -1,2 +1,2 @@
-# WSAA-Courseware
+# WSAA-assignments
 WSAA-Courseware
