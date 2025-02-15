@@ -57,57 +57,63 @@ Using python, import the following as per notebook
 
 ## Repository Structure
 
-**1. images**
+### **1. images**
 
 This folder contains all the images used in the README & Assignments.
 
-**2. gitignore**
+### **2. gitignore**
 
 This gitignore file specifies intentionally untracked files that Git should ignore.
 
-**3. README**
+### **3. README**
 
 This file serves as the first point of contact for users and developers who want to understand the purpose, setup, and usage of my repository.
 
-**4. assignment2-carddraw.py**
+### **4. assignment2-carddraw.py**
 
 <p align="center">
-    <img width="1000" height="408" src="(images/back_deck_of_cards.png)" alt="Sublime's custom image"/>
+    <img width="1000" height="408" src="./images/back_deck_of_cards.png" alt="Sublime's custom image"/>
 </p>
 
 This program uses a Deck of Cards API. It provides an easy way to interact with a virtual deck of playing cards. One can create decks, draw cards, shuffle decks,  etc. For this assignment I had to write a program that shuffles the deck and "deals" (prints out) the value and the suit of 5 cards.
    
-### Program
+#### Program
 
 Firstly, I create and shuffle a new deck of cards using the "Deck of Cards" API. I request the data from the API. I included `jokers_enabled=true` to include jokers when creating the deck, just for fun. By default, jokers are not included. I can print the response for debugging if required, it will print the deck_id too. This is useful for me to check the response for any errors but I have commented it out.
+
 ![alt text](images/assign2_1.png)
 
 
 The `response.json` turns the API's answer into a dictionary. The decks unique ID is retrieved as it is required further down in the program
+
 ![alt text](images/assign2_2.png)
 
 
 This code opens a file called `deckofcards.json`and writes the data into it and saves it as a file using the `json.dump`.
+
 ![alt text](images/assign2_3.png)
 
 
 Using the second URL in the exercise brief, I tell the API to draw 5 cards from the deck using the `deck_id`. The `requests.get(url)` asks the API to draw the five cards. I can print the response for debugging if required, it will print the deck_id too. This is useful for me to check the response for any errors but I have commented it out for now.
+
 ![alt text](images/assign2_4.png)
 
 
 The JSON response contains a list of the drawn cards. This code gets the list of cards from the response.
+
 ![alt text](images/assign2_5.png)
 
 
 This code goes through each card in the list and prints its value and suit.
+
 ![alt text](images/assign2_6.png)
 
 
-### Executable command
+#### Executable command
 - $ python .\assignment2-carddraw.py
 
 
-### Sample Output
+#### Sample Output
 deckofcards.json
 {"success": true, "deck_id": "td31tniknkyg", "remaining": 52, "shuffled": true}
 
@@ -117,7 +123,7 @@ deckofcards.json
 - 5 of HEARTS
 - JACK of CLUBS
 
-### References
+#### References
 - Topic 2 Datastructure Lecture - I referenced the wsaa2.4-readfromcloud.py which uses the Coindesk API
 - Lab 2 Trains - this lab was a great resource
 - w3schools: https://www.w3schools.com/python/python_json.asp    Introduction to JSON. There is a very useful reference and examples for when you convert from Python to JSON, Python objects are converted into the JSON (JavaScript) equivalent. 
@@ -129,28 +135,28 @@ deckofcards.json
 
 
 
-**5. **
+### **5. **
    
    This notebook contains 
 
-### Program & Sample Data
+#### Program & Sample Data
 
 
-### Sample Output
+#### Sample Output
 
 - 
-**6. **
+### **6. **
    
    This program simulates 
 
    The assignment is divided into the following sections
 
 
-**7. **
+### **7. **
 
 
 
-## References
+### References
 
 #### Please note References are shared within each assignment notebook for context. 
 
