@@ -77,7 +77,7 @@ This file serves as the first point of contact for users and developers who want
 
 This program uses a Deck of Cards API. It provides an easy way to interact with a virtual deck of playing cards. One can create decks, draw cards, shuffle decks,  etc. For this assignment I had to write a program that shuffles the deck and "deals" (prints out) the value and the suit of 5 cards.
    
-#### Program
+#### Program Steps
 
 Firstly, I create and shuffle a new deck of cards using the "Deck of Cards" API. I request the data from the API. I included `jokers_enabled=true` to include jokers when creating the deck, just for fun. By default, jokers are not included. I can print the response for debugging if required, it will print the deck_id too. This is useful for me to check the response for any errors but I have commented it out.
 
@@ -97,7 +97,7 @@ This code opens a file called `deckofcards.json`and writes the data into it and 
 Using the second URL in the exercise brief, I tell the API to draw 5 cards from the deck using the `deck_id`. The `requests.get(url)` asks the API to draw the five cards. I can print the response for debugging if required, it will print the deck_id too. This is useful for me to check the response for any errors but I have commented it out for now.
 
 ![alt text](images/assign2_4.png)
-![alt text](image-1.png)
+
 
 The JSON response contains a list of the drawn cards. This code gets the list of cards from the response.
 
@@ -128,7 +128,7 @@ deckofcards.json
 - w3schools: https://www.w3schools.com/python/python_json.asp    Introduction to JSON. There is a very useful reference and examples for when you convert from Python to JSON, Python objects are converted into the JSON (JavaScript) equivalent. 
 - w3schools: https://www.w3schools.com/python/module_requests.asp    Introduction to the Request library
 - RealPython: https://realpython.com/python-requests/   This resource details the Get request and the Response with examples.
-- Deck of Cards API: https://deckofcardsapi.com/    Source for tshi program, his is also where I found how to include jokers, just for fun. 
+- Deck of Cards API: https://deckofcardsapi.com/    Source for this program, his is also where I found how to include jokers, just for fun. 
 - Public API: https://publicapi.dev/deck-of-cards-api  This resource offers more insight into the Deck of Cards API. Users can create decks, draw cards, shuffle decks, and more through a set of RESTful API endpoints.
 
 
