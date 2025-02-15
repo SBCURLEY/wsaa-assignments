@@ -15,7 +15,7 @@ wsaa-assignments
 This repository contains my assignments submission for the module Web Services and Applications.
 My github repository link is as follows:
 
-[SBCURLEY/pfda-assignments](https://github.com/SBCURLEY/wsaa-assignments)
+[SBCURLEY/wsaa-assignments](https://github.com/SBCURLEY/wsaa-assignments)
 
 ## Installation
 I had to install the below to get started on this repository
@@ -72,7 +72,7 @@ This file serves as the first point of contact for users and developers who want
 ### **4. assignment2-carddraw.py**
 
 <p align="center">
-    <img width="1000" height="408" src="./images/back_deck_of_cards.png" alt="Sublime's custom image"/>
+    <img width="226" height="314" src="./images/back_deck_of_cards.png" alt="Sublime's custom image"/>
 </p>
 
 This program uses a Deck of Cards API. It provides an easy way to interact with a virtual deck of playing cards. One can create decks, draw cards, shuffle decks,  etc. For this assignment I had to write a program that shuffles the deck and "deals" (prints out) the value and the suit of 5 cards.
@@ -97,7 +97,7 @@ This code opens a file called `deckofcards.json`and writes the data into it and 
 Using the second URL in the exercise brief, I tell the API to draw 5 cards from the deck using the `deck_id`. The `requests.get(url)` asks the API to draw the five cards. I can print the response for debugging if required, it will print the deck_id too. This is useful for me to check the response for any errors but I have commented it out for now.
 
 ![alt text](images/assign2_4.png)
-
+![alt text](image-1.png)
 
 The JSON response contains a list of the drawn cards. This code gets the list of cards from the response.
 
@@ -115,7 +115,6 @@ This code goes through each card in the list and prints its value and suit.
 
 #### Sample Output
 deckofcards.json
-{"success": true, "deck_id": "td31tniknkyg", "remaining": 52, "shuffled": true}
 
 - 5 of SPADES
 - JOKER of RED
