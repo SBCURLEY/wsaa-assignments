@@ -98,9 +98,7 @@ This code opens a file called `deckofcards.json`and writes the data into it and 
 
 Using the second URL in the exercise brief, I tell the API to draw 5 cards from the deck using the `deck_id`. The `requests.get(url)` asks the API to draw the five cards. I can print the response for debugging if required, it will print the deck_id too. This is useful for me to check the response for any errors but I have commented it out for now.
 
-![alt text](images/assign2_4.png)
-
-![alt text](image.png)
+![alt text](<images/assign2_4 .png>)
 
 
 The JSON response contains a list of the drawn cards. This code gets the list of cards from the response.
