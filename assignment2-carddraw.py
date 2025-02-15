@@ -1,21 +1,9 @@
 import requests
 import json
 
-# url = "https://deckofcardsapi.com/"
-# response = requests.get(url)
-# print(response.json())
-# data = response.json()
-# with open ("bitcoindump.json", "w") as fp:
-#    json.dump(data, fp)
-
-# euroPriceObject = data["bpi"]["EUR"]
-# rate = euroPriceObject["rate"]
-# print(rate)
-
-# Step 1: Shuffle the deck
-url = "https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1"
+url = "https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1&jokers_enabled=true"  # including jokers in the deck for fun :)
 response = requests.get(url)
-print(response.json()) 
+#print(response.json())          # print the response for debugging if required, it will print the deck_id.
 
 data = response.json()
 deck_id = data["deck_id"]
@@ -23,13 +11,11 @@ deck_id = data["deck_id"]
 with open ("deckofcards.json", "w") as fp:
     json.dump(data, fp)
 
-# Step 2: Draw 5 cards
 url = f"https://deckofcardsapi.com/api/deck/{deck_id}/draw/?count=5"
 response = requests.get(url)
-print(response.json())  # Print the card draw response for debugging
+#print(response.json())      # print the response for debugging if required, it will print the cards drawn.
 
 cards = response.json()["cards"]
 
-# Step 3: Print each card's value and suit
 for card in cards:
-    print(f"{card['value']} of {card['suit']}")
+    print(f"{card["value"]} of {card["suit"]}")     # Print each card's value and suit
