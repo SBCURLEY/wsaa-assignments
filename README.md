@@ -100,6 +100,8 @@ Using the second URL in the exercise brief, I tell the API to draw 5 cards from 
 
 ![alt text](images/assign2_4.png)
 
+![alt text](image.png)
+
 
 The JSON response contains a list of the drawn cards. This code gets the list of cards from the response.
 
