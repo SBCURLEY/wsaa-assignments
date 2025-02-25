@@ -60,14 +60,23 @@ Using python, import the following as per notebook
 ### **1. images**
 
 This folder contains all the images used in the README & Assignments.
+<br>
+<br>
+<br>
 
 ### **2. gitignore**
 
 This gitignore file specifies intentionally untracked files that Git should ignore.
+<br>
+<br>
+<br>
 
 ### **3. README**
 
 This file serves as the first point of contact for users and developers who want to understand the purpose, setup, and usage of my repository.
+<br>
+<br>
+<br>
 
 ### **4. assignment2-carddraw.py**
 
@@ -132,9 +141,9 @@ deckofcards.json
 - RealPython: https://realpython.com/python-requests/   This resource details the Get request and the Response with examples.
 - Deck of Cards API: https://deckofcardsapi.com/    Source for this program, his is also where I found how to include jokers, just for fun. 
 - Public API: https://publicapi.dev/deck-of-cards-api  This resource offers more insight into the Deck of Cards API. Users can create decks, draw cards, shuffle decks, and more through a set of RESTful API endpoints.
-
-
-
+<br>
+<br>
+<br>
 
 ### **5. assignment03-cso.py.**
 
@@ -186,19 +195,87 @@ cso.json
 #### References
 - Topic 4  Reading API's in the Wild lecture:  I referenced the video on csodao.py.
 - github: https://github.com/virtualarchitectures/CSO_Ireland_JSONStat4Py    this repository contains a Jupyter notebook demonstrating how to access the Statbank API for Central Statistics Office (CSO) Ireland.
+<br>
+<br>
+<br>
 
+### **6.**
+This program simulates 
 
+#### Program Steps
+The assignment is divided into the following sections
 
-### **6. **
-   
-   This program simulates 
+#### Executable command
+- $ python .\
 
-   The assignment is divided into the following sections
+#### Sample Output
 
+#### References
+- 
+- 
+<br>
+<br>
+<br>
 
-### **7. **
+### **7.**
+This program simulates 
 
+#### Program Steps
+The assignment is divided into the following sections
 
+#### Executable command
+- $ python .\
+
+#### Sample Output
+
+#### References
+- 
+- 
+<br>
+<br>
+<br>
+
+### **8.**
+This program simulates 
+
+#### Program Steps
+The assignment is divided into the following sections
+
+#### Executable command
+- $ python .\
+
+#### Sample Output
+
+#### References
+- 
+- 
+<br>
+<br>
+<br>
+
+### **9.**
+This program simulates 
+
+#### Program Steps
+The assignment is divided into the following sections
+
+#### Executable command
+- $ python .\
+
+#### Sample Output
+
+#### References
+- 
+- 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ### References
 
@@ -207,6 +284,8 @@ cso.json
 - w3schools: Pandas cleaning empty cells  https://www.w3schools.com/python/pandas/pandas_cleaning_empty_cells.asp
 - Machine Learning Tutorials: pandas to_numeric Tutorial (With Examples)       https://machinelearningtutorials.org/pandas-to_numeric-tutorial-with-examples/
 - Pandas Pydata: pandas.to_numeric     https://pandas.pydata.org/pandas-docs/version/2.0/reference/api/pandas.to_numeric.html
+- Topic 4  Reading API's in the Wild lecture:  I referenced the video on csodao.py.
+- github: https://github.com/virtualarchitectures/CSO_Ireland_JSONStat4Py    this repository contains a Jupyter notebook demonstrating how to access the Statbank API for Central Statistics Office (CSO) Ireland.
 
 
 
