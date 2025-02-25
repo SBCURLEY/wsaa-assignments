@@ -87,42 +87,45 @@ This file serves as the first point of contact for users and developers who want
 ###### [Image from Deckofcardsapi.com](https://deckofcardsapi.com/static/img/back.png)
 
 This program uses a Deck of Cards API. It provides an easy way to interact with a virtual deck of playing cards. One can create decks, draw cards, shuffle decks,  etc. For this assignment I had to write a program that shuffles the deck and "deals" (prints out) the value and the suit of 5 cards.
-   
+<br>
+<br>
+
 #### Program Steps
 
 Firstly, I create and shuffle a new deck of cards using the "Deck of Cards" API. I request the data from the API. I included `jokers_enabled=true` to include jokers when creating the deck, just for fun. By default, jokers are not included. I can print the response for debugging if required, it will print the deck_id too. This is useful for me to check the response for any errors but I have commented it out.
 
 ![alt text](images/assign2_1.png)
-
+<br>
 
 The `response.json` turns the API's answer into a dictionary. The decks unique ID is retrieved as it is required further down in the program
 
 ![alt text](images/assign2_2.png)
-
+<br>
 
 This code opens a file called `deckofcards.json`and writes the data into it and saves it as a file using the `json.dump`.
 
 ![alt text](images/assign2_3.png)
-
+<br>
 
 Using the second URL in the exercise brief, I tell the API to draw 5 cards from the deck using the `deck_id`. The `requests.get(url)` asks the API to draw the five cards. I can print the response for debugging if required, it will print the deck_id too. This is useful for me to check the response for any errors but I have commented it out for now.
 
 ![alt text](<images/assign2_4 .png>)
-
+<br>
 
 The JSON response contains a list of the drawn cards. This code gets the list of cards from the response.
 
 ![alt text](images/assign2_5.png)
-
+<br>
 
 This code goes through each card in the list and prints its value and suit.
 
 ![alt text](images/assign2_6.png)
-
+<br>
 
 #### Executable command
 - $ python .\assignment2-carddraw.py
-
+<br>
+<br>
 
 #### Sample Output
 deckofcards.json
@@ -132,6 +135,8 @@ deckofcards.json
 - 4 of HEARTS
 - 5 of HEARTS
 - JACK of CLUBS
+<br>
+<br>
 
 #### References
 - Topic 2 Datastructure Lecture - I referenced the wsaa2.4-readfromcloud.py which uses the Coindesk API
@@ -155,42 +160,46 @@ deckofcards.json
 
 
 This program retrieves the dataset for the "exchequer account (historical series)" from the Central Statistics Office (CSO) of Ireland's API, and stores it into a file called "cso.json". The data is located at [www.cso.ie](https://www.cso.ie/en/index.html)- Economy - Finance - Financial Indicators. Its code is FIQ02. The dataset can be replaced with other dataset codes to retrieve different datasets.
-
+<br>
+<br>
 
 #### Program Steps
 
 Firstly, I import the required libraries. `requests` is used to send HTTP requests to the API and `json` handles JSON data
 
 ![alt text](images/assign03_1.png)
-
+<br>
 
 I define the url beginning and end, so that I can reuse this code for various datasets in the Central Statistics Office (CSO) of Ireland's API
 
 ![alt text](images/assign03_2.png)
-
+<br>
 
 This function `getAllAsFile(dataset)`gets the dataset and saves the result in a JSON file called `cso.json`
 
 ![alt text](images/assign03_3.png)
-
+<br>
 
 The below function `getAll(dataset)` gets the API URL using a dataset name (which I can define later). then sends a GET request to fetch the dataset, and returns a response.
 
 ![alt text](images/assign03_4.png)
-
+<br>
 
 I run the script calling the dataset FIQ02 directly.
 
 ![alt text](images/assign03_5.png)
-
+<br>
+<br>
 
 #### Executable command
 - $ python .\assignment03-cso.py
-
+<br>
+<br>
 
 #### Sample Output
 cso.json
-
+<br>
+<br>
 
 #### References
 - Topic 4  Reading API's in the Wild lecture:  I referenced the video on csodao.py.
