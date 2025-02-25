@@ -136,16 +136,59 @@ deckofcards.json
 
 
 
-### **5. **
-   
-   This notebook contains 
+### **5.assignment03-cso.py.**
 
-#### Program & Sample Data
+<p align="center">
+    <img width="300" height="245" src="./images/cso_image.png" alt="Sublime's custom image"/>
+</p>
+
+###### [Image from Jefferson Payroll ](https://www.jeffersonpayroll.ie/structure-of-earnings-survey-ireland/)
+
+
+This program retrieves the dataset for the "exchequer account (historical series)" from the Central Statistics Office (CSO) of Ireland's API, and stores it into a file called "cso.json". The data is located at [www.cso.ie](https://www.cso.ie/en/index.html)- Economy - Finance - Financial Indicators. Its code is FIQ02. The dataset can be replaced with other dataset codes to retrieve different datasets.
+
+
+#### Program Steps
+
+Firstly, I import the required libraries. `requests` is used to send HTTP requests to the API and `json` handles JSON data
+
+![alt text](images/assign03_1.png)
+
+
+I define the url beginning and end, so that I can reuse this code for various data in the Central Statistics Office (CSO) of Ireland's API
+
+![alt text](images/assign03_2.png)
+
+
+This function gets the API URL using a dataset name (which I can define later). I then send a GET request to fetch the dataset, and return a response.
+
+![alt text](images/assign03_3.png)
+
+
+This function gets the data and saves it in JSON file called `cso.json`
+
+![alt text](images/assign03_4.png)
+
+
+I run the script calling the dataset FIQ02 directly.
+
+![alt text](images/assign03_5.png)
+
+
+#### Executable command
+- $ python .\assignment03-cso.py
 
 
 #### Sample Output
+cso.json
 
-- 
+
+#### References
+- Topic 4  Reading API's in the Wild lecture:  I referenced the video on csodao.py.
+- github: https://github.com/virtualarchitectures/CSO_Ireland_JSONStat4Py    this repository contains a Jupyter notebook demonstrating how to access the Statbank API for Central Statistics Office (CSO) Ireland.
+
+
+
 ### **6. **
    
    This program simulates 
