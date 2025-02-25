@@ -136,7 +136,7 @@ deckofcards.json
 
 
 
-### **5.assignment03-cso.py.**
+### **5. assignment03-cso.py.**
 
 <p align="center">
     <img width="300" height="245" src="./images/cso_image.png" alt="Sublime's custom image"/>
@@ -155,17 +155,17 @@ Firstly, I import the required libraries. `requests` is used to send HTTP reques
 ![alt text](images/assign03_1.png)
 
 
-I define the url beginning and end, so that I can reuse this code for various data in the Central Statistics Office (CSO) of Ireland's API
+I define the url beginning and end, so that I can reuse this code for various datasets in the Central Statistics Office (CSO) of Ireland's API
 
 ![alt text](images/assign03_2.png)
 
 
-This function gets the API URL using a dataset name (which I can define later). I then send a GET request to fetch the dataset, and return a response.
+This function `getAllAsFile(dataset)`gets the dataset and saves the result in a JSON file called `cso.json`
 
 ![alt text](images/assign03_3.png)
 
 
-This function gets the data and saves it in JSON file called `cso.json`
+The below function `getAll(dataset)` gets the API URL using a dataset name (which I can define later). then sends a GET request to fetch the dataset, and returns a response.
 
 ![alt text](images/assign03_4.png)
 
