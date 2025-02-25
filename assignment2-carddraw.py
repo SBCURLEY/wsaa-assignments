@@ -1,3 +1,7 @@
+# Topic 2: Assignment 2 - CSO API
+# Author: Sharon Curley
+
+
 import requests
 import json
 
