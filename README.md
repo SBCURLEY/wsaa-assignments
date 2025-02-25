@@ -132,10 +132,11 @@ deckofcards.json
 - RealPython: https://realpython.com/python-requests/   This resource details the Get request and the Response with examples.
 - Deck of Cards API: https://deckofcardsapi.com/    Source for this program, his is also where I found how to include jokers, just for fun. 
 - Public API: https://publicapi.dev/deck-of-cards-api  This resource offers more insight into the Deck of Cards API. Users can create decks, draw cards, shuffle decks, and more through a set of RESTful API endpoints.
-
-
-
-
+/t
+/t
+/t
+/t
+/t
 ### **5. assignment03-cso.py.**
 
 <p align="center">
