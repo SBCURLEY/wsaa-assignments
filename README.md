@@ -231,11 +231,12 @@ I had to install `PyGithub`to use this install package.
 
 I imported the required libraries.
 
--`requests` is used to send HTTP requests to the API. 
+-`requests` is used to send HTTP requests to the API.
+
 -`from github import Github` imports the `Github` class from the `PyGithub` library, which is used to interact with GitHub's API.
+
 -`from config import config as cfg`: This imports a config dictionary from a file named `config.py`, containing the token. (`config.py` is in `.gitignore`so the sensitive information is not committed to Github)
 
-<br>
 <br>
 
 Firstly I get the API key from `config.py`
@@ -244,7 +245,7 @@ Firstly I get the API key from `config.py`
 
 <br>
 
-I create a connection to Github
+I created a connection to Github
 
 `g = Github(apikey)`
 
@@ -252,7 +253,7 @@ I create a connection to Github
 
 I get access to my repository
 
-`repo = g.get_repo("SBCURLEY/aprivateone")`
+`repo = g.get_repo("SBCURLEY/wsaa-assignments")`
 
 <br>
 
