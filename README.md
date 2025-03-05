@@ -24,6 +24,7 @@ I had to install the below to get started on this repository
 - Cmder
 - Jupyter notebook
 - github
+- PyGithub
 
 ## Usage
 Once the above is installed is complete, you can run the programs or notebooks
