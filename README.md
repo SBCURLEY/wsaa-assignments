@@ -219,17 +219,14 @@ cso.json
 
 This program reads a file from my repository. The program replaces all the instances of the text "Andrew" with my name "Sharon". The program then commit these changes and pushes the file back to my repository. I used authorisation to do this.
 <br>
-<br>
 
 #### Program Steps
 The assignment is divided into the following sections
 
 <br>
-<br>
 
 I had to install `PyGithub`to use this install package.
 
-<br>
 <br>
 
 I imported the required libraries.
