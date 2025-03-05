@@ -236,7 +236,7 @@ I imported the required libraries.
 
 -`from github import Github` imports the `Github` class from the `PyGithub` library, which is used to interact with GitHub's API.
 
--`from config import config as cfg`: This imports a config dictionary from a file named `config.py`, containing the token. (`config.py` is in `.gitignore`so the sensitive information is not committed to Github)
+-`from config import config as cfg` imports a config dictionary from a file named `config.py`, containing the token. (`config.py` is in `.gitignore`so the sensitive information is not committed to Github)
 
 <br>
 
