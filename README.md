@@ -208,20 +208,107 @@ cso.json
 <br>
 <br>
 
-### **6.**
-This program simulates 
+### **6.assignment04-github.py**
+
+<p align="center">
+    <img width="300" height="245" src="./images/assign04.png" alt="Sublime's custom image"/>
+</p>
+
+###### [Image from Github.com ](https://github.com/Marcelo-Diament/Github-API-with-AJAX)
+
+
+This program reads a file from my repository. The program replaces all the instances of the text "Andrew" with my name "Sharon". The program then commit these changes and pushes the file back to my repository. I used authorisation to do this.
+<br>
+<br>
 
 #### Program Steps
 The assignment is divided into the following sections
 
-#### Executable command
-- $ python .\
+<br>
+<br>
 
-#### Sample Output
+I had to install `PyGithub`to use this install package.
+
+<br>
+<br>
+
+I imported the required libraries.
+
+-`requests` is used to send HTTP requests to the API. 
+-`from github import Github` imports the `Github` class from the `PyGithub` library, which is used to interact with GitHub's API.
+-`from config import config as cfg`: This imports a config dictionary from a file named `config.py`, containing the token. (`config.py` is in `.gitignore`so the sensitive information is not committed to Github)
+
+<br>
+<br>
+
+Firstly I get the API key from `config.py`
+
+`apikey = cfg["githubkey"]`
+
+<br>
+
+I create a connection to Github
+
+`g = Github(apikey)`
+
+<br>
+
+I get access to my repository
+
+`repo = g.get_repo("SBCURLEY/aprivateone")`
+
+<br>
+
+I select the file test.txt
+
+`fileInfo = repo.get_contents("test.txt")`
+`urlOfFile = fileInfo.download_url`
+
+<br>
+
+I store the content in `contentOfFile`
+
+`response = requests.get(urlOfFile)`
+`contentOfFile = response.text`
+
+<br>
+
+I replace "Andrew" with "Sharon"
+
+`newContents = contentOfFile.replace("Andrew","Sharon")`
+`print (newContents)`
+
+<br>
+
+I update "test.txt" in the GitHub repository with the modified content. The commit message is "Updated by prog".
+
+`gitHubResponse=repo.update_file(fileInfo.path,"Updated by prog",newContents,fileInfo.sha)`
+
+<br>
+
+This statement confirms success.
+
+`print("File updated successfully:", gitHubResponse)`
+
+<br>
+<br>
+
+#### Executable command
+- $ python .\assignment04-github.py
+
+<br>
+<br>
+
+#### Output
+[Test.txt file is updated on Github](https://github.com/SBCURLEY/wsaa-assignments/blob/main/test.txt)
+
+<br>
+<br>
 
 #### References
-- 
-- 
+- Lecture Topic 5 API authentication
+- Topic 5 Lab packages for API
+- Python Documentation: https://docs.python.org/3/library/stdtypes.html#str.replace   I used this source for the replace
 <br>
 <br>
 <br>
