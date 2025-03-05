@@ -212,7 +212,7 @@ cso.json
 ### **6.assignment04-github.py**
 
 <p align="center">
-    <img width="500" height="245" src="./images/assign04.png" alt="Sublime's custom image"/>
+    <img width="450" height="245" src="./images/assign04.png" alt="Sublime's custom image"/>
 </p>
 
 ###### [Image from Github.com ](https://github.com/Marcelo-Diament/Github-API-with-AJAX)
