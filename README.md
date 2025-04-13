@@ -286,3 +286,10 @@ This statement confirms success.
 <br>
 <br>
 <br>
+<br>
+
+
+Thankyou so much for reviewing my assignments – it's been a great learning journey!  
+Looking forward to your feedback.
+
+– Sharon Curley
