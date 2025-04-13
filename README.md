@@ -12,7 +12,7 @@ wsaa-assignments
 
 ###### [Image from MilesWeb.com](https://www.milesweb.com/blog/hosting/emerging-web-hosting-technology-trends/)
 
-This repository contains my assignments submission for the module Web Services and Applications.
+This repository contains my three assignments submission for the module Web Services and Applications.
 My github repository link is as follows:
 
 [SBCURLEY/wsaa-assignments](https://github.com/SBCURLEY/wsaa-assignments)
@@ -21,40 +21,24 @@ My github repository link is as follows:
 I had to install the below to get started on this repository
 - Python 
 - Visual Studio Code
-- Cmder
-- Jupyter notebook
 - github
 - PyGithub
+<br>
+<br>
+<br>
 
 ## Usage
 Once the above is installed is complete, you can run the programs or notebooks
 
 ## Dependencies
-The following libraries are required to execute my notebook:
+The following libraries are required to execute my notebook. Using python, import the following:
 - `import requests`: The requests module allows you to send HTTP requests using Python. The HTTP request returns a Response Object with all the response data (content, encoding, status, etc).
 - `import json`: JSON is a syntax for storing and exchanging data. It is text, written with JavaScript object notation.
-- `matplotlib.pyplot`: Essential for creating static, animated, and interactive visualizations in Python. It is closely integrated with NumPy and provides a MATLAB-like interface for creating plots and visualizations.
-- `numpy`: It contains functionality for multidimensional arrays, high-level mathematical functions such as linear algebra operations.
-- `pandas`: Fundamental data analysis and manipulation library built on top of the Python programming language. It offers data structures and operations for manipulating numerical tables and time series.
-- `seaborn`: Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
-- `datetime`: The datetime is a built-in module that provides classes for manipulating dates and times.
-- `re` This module is used to perform pattern matching and substitution on strings with regular expressions.
-
-Using python, import the following as per notebook
-
-`import requests`
-
-`import json`
-
-`import matplotlib.pyplot as plt`
-
-`import numpy as np`
-
-`import pandas as pd`
-
-`import seaborn as sns`
-
-
+- `import github`: This imports the `Github` class from the `PyGithub` library
+- `import config`: This imports a variable named `config` from a separate Python file called `config.py`, and renames it as cfg for use in my script.
+<br>
+<br>
+<br>
 
 ## Repository Structure
 
@@ -230,13 +214,13 @@ I had to install `PyGithub`to use this install package.
 
 <br>
 
-I imported the required libraries.
+I imported the required libraries as described in dependencies above.
 
--`requests` is used to send HTTP requests to the API.
+-`requests` 
 
--`from github import Github` imports the `Github` class from the `PyGithub` library, which is used to interact with GitHub's API.
+-`from github import Github`
 
--`from config import config as cfg` imports a config dictionary from a file named `config.py`, containing the token. (`config.py` is in `.gitignore`so the sensitive information is not committed to Github)
+-`from config import config as cfg` 
 
 <br>
 
@@ -311,87 +295,3 @@ This statement confirms success.
 <br>
 <br>
 <br>
-
-### **7.**
-This program simulates 
-
-#### Program Steps
-The assignment is divided into the following sections
-
-#### Executable command
-- $ python .\
-
-#### Sample Output
-
-#### References
-- 
-- 
-<br>
-<br>
-<br>
-
-### **8.**
-This program simulates 
-
-#### Program Steps
-The assignment is divided into the following sections
-
-#### Executable command
-- $ python .\
-
-#### Sample Output
-
-#### References
-- 
-- 
-<br>
-<br>
-<br>
-
-### **9.**
-This program simulates 
-
-#### Program Steps
-The assignment is divided into the following sections
-
-#### Executable command
-- $ python .\
-
-#### Sample Output
-
-#### References
-- 
-- 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-### References
-
-#### Please note References are shared within each assignment notebook for context. 
-
-- w3schools: Pandas cleaning empty cells  https://www.w3schools.com/python/pandas/pandas_cleaning_empty_cells.asp
-- Machine Learning Tutorials: pandas to_numeric Tutorial (With Examples)       https://machinelearningtutorials.org/pandas-to_numeric-tutorial-with-examples/
-- Pandas Pydata: pandas.to_numeric     https://pandas.pydata.org/pandas-docs/version/2.0/reference/api/pandas.to_numeric.html
-- Topic 4  Reading API's in the Wild lecture:  I referenced the video on csodao.py.
-- github: https://github.com/virtualarchitectures/CSO_Ireland_JSONStat4Py    this repository contains a Jupyter notebook demonstrating how to access the Statbank API for Central Statistics Office (CSO) Ireland.
-
-
-
-## About Author
-- Sharon Curley
-  
-    My role is a Business Systems Analyst for [Meissner Corporation](https://www.meissner.com/) - a manufacturing company in Castlebar, Co. Mayo. The systems I am supporting currently are Microsoft Dynamics 365 (ERP) for all Meissner entities (Ireland, US, Switzerland, Germany & Italy). I initially started out in functional areas - Customer Service & Supply Chain as I was lucky to be one of the first crew members on board in this company in 2020. I have moved into the IT Dept since March 2023. I have a background in SAP - projects & support, so was drawn back into this area when I saw the opportunity arise within Meissner. I have a keen interest in data as when I was a functional user that was the most challenging part of my role - trying to get meaningful data from the systems we use. I have used excel to an advanced level and started with Power BI. I see a lot of opportunities within Meissner to develop in the Data field. I am hoping I will have the skills to do so.
-
-![Meissner](https://www.meissner.com/wp-content/uploads/castlebar-brief-pdf-image.jpg)
-
-- [Git Hub Profile](https://github.com/SBCURLEY "Sharon Curley")
-
-- [Email](mailto:G00438863@atu.ie?subject=Hi "Hi!")
-
