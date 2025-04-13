@@ -184,7 +184,7 @@ cso.json
 <br>
 <br>
 
-### **6.assignment04-github.py**
+### **6. assignment04-github.py**
 
 <p align="center">
     <img width="450" height="245" src="./images/assign04.png" alt="Sublime's custom image"/>
