@@ -4,6 +4,7 @@ Author: Sharon Curley
 
 List of 10 names to replace with Sharon
 
+<<<<<<< HEAD
 Andrew
 Andrew
 Andrew
@@ -15,3 +16,16 @@ Andrew
 Andrew
 Andrew 
 another Andrew 
+=======
+Sharon
+Sharon
+Sharon
+Sharon
+Sharon
+Sharon
+Sharon
+Sharon
+Sharon
+Sharon 
+another Sharon 
+>>>>>>> a5ffd9887924a0d5eb546c11a2d478286107bd40
