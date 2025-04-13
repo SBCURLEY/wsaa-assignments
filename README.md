@@ -23,21 +23,16 @@ I had to install the below to get started on this repository
 - Visual Studio Code
 - github
 - PyGithub
-<br>
-<br>
-<br>
 
 ## Usage
-Once the above is installed is complete, you can run the programs or notebooks
+Once the above are installed, you can run the programs.
 
 ## Dependencies
-The following libraries are required to execute my notebook. Using python, import the following:
+The following libraries are required to execute my programs. Using python, import the following:
 - `import requests`: The requests module allows you to send HTTP requests using Python. The HTTP request returns a Response Object with all the response data (content, encoding, status, etc).
 - `import json`: JSON is a syntax for storing and exchanging data. It is text, written with JavaScript object notation.
 - `import github`: This imports the `Github` class from the `PyGithub` library
 - `import config`: This imports a variable named `config` from a separate Python file called `config.py`, and renames it as cfg for use in my script.
-<br>
-<br>
 <br>
 
 ## Repository Structure
@@ -47,19 +42,16 @@ The following libraries are required to execute my notebook. Using python, impor
 This folder contains all the images used in the README & Assignments.
 <br>
 <br>
-<br>
 
 ### **2. gitignore**
 
 This gitignore file specifies intentionally untracked files that Git should ignore.
 <br>
 <br>
-<br>
 
 ### **3. README**
 
 This file serves as the first point of contact for users and developers who want to understand the purpose, setup, and usage of my repository.
-<br>
 <br>
 <br>
 
@@ -131,7 +123,6 @@ deckofcards.json
 - RealPython: https://realpython.com/python-requests/   This resource details the Get request and the Response with examples.
 - Deck of Cards API: https://deckofcardsapi.com/    Source for this program, his is also where I found how to include jokers, just for fun. 
 - Public API: https://publicapi.dev/deck-of-cards-api  This resource offers more insight into the Deck of Cards API. Users can create decks, draw cards, shuffle decks, and more through a set of RESTful API endpoints.
-<br>
 <br>
 <br>
 
