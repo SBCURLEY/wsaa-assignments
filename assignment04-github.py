@@ -7,6 +7,8 @@ from config import config as cfg
 
 apikey = cfg["githubkey"]
 
+#print(type(cfg))  # <class 'dict'>
+
 g = Github(apikey)
 
 #for repo in g.get_user().get_repos():      
@@ -21,7 +23,7 @@ urlOfFile = fileInfo.download_url
 
 response = requests.get(urlOfFile)
 contentOfFile = response.text
-#print (contentOfFile)
+print (contentOfFile)
 
 #newContents = contentOfFile + " another Andrew \n"     # adding in another Andrew to the file
 

@@ -19,5 +19,3 @@ def getAll(dataset):
 
 if __name__ == "__main__":
     getAllAsFile("FIQ02")
-    
-    
